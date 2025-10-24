@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:     Device-Limit Login
- * Plugin URI:      https://example.com/plugins/device-limit-login
+ * Plugin URI:      https://github.com/mdniajm/device-limit-login/
  * Description:     Limits each non-admin user to two devices and blocks extra logins.
  * Version:         1.0.0
  * Author:          Md Niaj Makhdum
@@ -170,3 +170,4 @@ function dl_handle_revoke_action() {
     }
 }
 add_action( 'admin_init', 'dl_handle_revoke_action' );
+
