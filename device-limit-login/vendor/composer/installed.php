@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'yourname/device-limit-login',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => null,
+        'type' => 'wordpress-plugin',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'mustangostang/spyc' => array(
+            'pretty_version' => '0.6.3',
+            'version' => '0.6.3.0',
+            'reference' => '4627c838b16550b666d15aeae1e5289dd5b77da0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../mustangostang/spyc',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'piwik/device-detector' => array(
+            'pretty_version' => '4.3.1',
+            'version' => '4.3.1.0',
+            'reference' => '88e5419ee1448ccb9537e287dd09836ff9d2de3b',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../piwik/device-detector',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'yourname/device-limit-login' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => null,
+            'type' => 'wordpress-plugin',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);

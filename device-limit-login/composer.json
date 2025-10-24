@@ -1,0 +1,8 @@
+{
+  "name": "yourname/device-limit-login",
+  "description": "Limits users to two devices",
+  "type": "wordpress-plugin",
+  "require": {
+    "piwik/device-detector": "^4.0"
+  }
+}
